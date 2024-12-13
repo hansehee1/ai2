@@ -77,37 +77,21 @@ st.markdown("""
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
     labels[0]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1",
-            "https://via.placeholder.com/300?text=Label1_Image2",
-            "https://via.placeholder.com/300?text=Label1_Image3"
-        ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://youtu.be/zI8ZVExDXpU?si=i09LpGc_3ypMD3nf",
+            "https://youtu.be/AkT2TK4cgCw?si=Ltq6Xmh9tbxTfy5g",
         ],
         'texts': [
-            "균열이 있는 건축물",
-            "Label 1 관련 두 번째 텍스트 내용입니다.",
-            "Label 1 관련 세 번째 텍스트 내용입니다."
+            "균열이 있는 건축물의 특징",
+            "건축물 균열 예방 방법",
         ]
     },
     labels[1]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
-        ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/MP2DjvrTxSo?si=JR7FWWb3zh0EIZWM",
         ],
         'texts': [
             "균열이 없는 건축물",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
         ]
     }
 
