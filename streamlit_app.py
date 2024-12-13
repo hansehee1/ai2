@@ -41,17 +41,14 @@ def display_right_content(prediction, data):
     st.write("### 오른쪽: 동적 분류 결과")
     cols = st.columns(3)
 
-    # 1st Row - Images
-    for i in range(3):
-        with cols[i]:
-            st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
+   
     # 2nd Row - YouTube Videos
-    for i in range(3):
+    for i in range(2):
         with cols[i]:
             st.video(data['videos'][i])
             st.caption(f"유튜브: {prediction}")
     # 3rd Row - Text
-    for i in range(3):
+    for i in range(2):
         with cols[i]:
             st.write(data['texts'][i])
 
@@ -89,10 +86,12 @@ content_data = {
     },
     labels[1]: {
         'videos': [
-            "https://youtu.be/MP2DjvrTxSo?si=JR7FWWb3zh0EIZWM"
+            "https://youtu.be/MP2DjvrTxSo?si=JR7FWWb3zh0EIZWM",
+            "https://youtu.be/4SW5U9xr8U4?si=1jyECJL2e_7J_QwF"
         ],
         'texts': [
-            "균열이 없는 건축물"
+            "균열이 없는 건축물",
+            "안전한 건축물의 특징"
         ]
     }
 
