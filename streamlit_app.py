@@ -83,7 +83,7 @@ content_data = {
         ],
         'texts': [
             "균열이 있는 건축물의 특징",
-            "건축물 균열 예방 방법",
+            "건축물 균열 예방 방법"
         ]
     },
     labels[1]: {
@@ -91,7 +91,7 @@ content_data = {
             "https://youtu.be/MP2DjvrTxSo?si=JR7FWWb3zh0EIZWM",
         ],
         'texts': [
-            "균열이 없는 건축물",
+            "균열이 없는 건축물"
         ]
     }
 
