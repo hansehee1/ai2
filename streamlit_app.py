@@ -79,7 +79,7 @@ content_data = {
     labels[0]: {
         'videos': [
             "https://youtu.be/zI8ZVExDXpU?si=i09LpGc_3ypMD3nf",
-            "https://youtu.be/AkT2TK4cgCw?si=Ltq6Xmh9tbxTfy5g",
+            "https://youtu.be/AkT2TK4cgCw?si=Ltq6Xmh9tbxTfy5g"
         ],
         'texts': [
             "균열이 있는 건축물의 특징",
@@ -88,7 +88,7 @@ content_data = {
     },
     labels[1]: {
         'videos': [
-            "https://youtu.be/MP2DjvrTxSo?si=JR7FWWb3zh0EIZWM",
+            "https://youtu.be/MP2DjvrTxSo?si=JR7FWWb3zh0EIZWM"
         ],
         'texts': [
             "균열이 없는 건축물"
